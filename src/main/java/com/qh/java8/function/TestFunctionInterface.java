@@ -2,6 +2,7 @@ package com.qh.java8.function;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -21,6 +22,9 @@ public class TestFunctionInterface {
         List<String> list = Arrays.asList("asdfas","asff","nihao");
         list.stream().map(String::toUpperCase).forEach(System.out::println);
 
-        Function f = a->a.toString();
+//        Comparator<? super E> comparator = ;
+//        list.sort(comparator);
+//
+//        Function f = a->a.toString();
     }
 }
